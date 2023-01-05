@@ -23,12 +23,12 @@ okBttnKo.addEventListener("click", getKoTeams)
 function getKoTeams() {
     const n = inputNoKo.valueAsNumber
     matchNoKo.innerHTML = `There will be ${n - 1} Knock-out matches`
-    if (n % 2 == 0) {
-        noteEl.innerHTML = ""
-    }
-    else if (n <= 1){
+    if (n <= 1){
         matchNoKo.innerHTML = "There will be no matches"
     }
+    if (n % 2 == 0) {
+        noteEl.innerHTML = ""
+    }  
     else {
         noteEl.innerHTML = `note:- In order to get EVEN matches, Use numbers like 2,4,8,16...`
     }
