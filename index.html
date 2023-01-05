@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Match</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="frame">
+        <h3 class="main-heading">
+            League Match
+        </h3>
+        <div class="input-wrapper">
+            <h5 class="team-text">
+                Enter number of Teams
+            </h5>
+            <input type="number" min="1"id="team-no">
+        </div>
+        <button id="ok-bttn">OK</button>
+        <p class="result" id="match-no">
+        </p>
+    </div>
+    <div class="frame">
+        <h3 class="main-heading-ko">
+            Knock-out Match
+        </h3>
+        <div class="input-wrapper">
+            <h5 class="team-text">
+                Enter number of Teams
+            </h5>
+            <input type="number" min="2"id="team-no-ko">
+        </div>
+        <button id="ok-bttn-ko">OK</button>
+        <p class="result" id="match-no-ko">
+        </p>
+        <p id="note"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
