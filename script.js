@@ -26,7 +26,7 @@ function getKoTeams() {
     if (n % 2 == 0) {
         noteEl.innerHTML = ""
     }
-    else if (n == 1){
+    else if (n <= 1){
         matchNoKo.innerHTML = "There will be no matches"
     }
     else {
